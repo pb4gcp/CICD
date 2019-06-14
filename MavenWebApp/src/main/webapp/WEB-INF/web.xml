@@ -4,24 +4,4 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-  	<servlet-name>HelloWorld</servlet-name>
-  	<display-name>HelloWorld</display-name>
-  	<description></description>
-  	<servlet-class>com.cicd.mavenwebapp.HelloWorld</servlet-class>
-  </servlet>
-  <servlet>
-  	<servlet-name>SimpleServelet</servlet-name>
-  	<display-name>SimpleServelet</display-name>
-  	<description></description>
-  	<servlet-class>com.cicd.mavenapp.SimpleServelet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>HelloWorld</servlet-name>
-  	<url-pattern>/HelloWorld</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-  	<servlet-name>SimpleServelet</servlet-name>
-  	<url-pattern>/SimpleServelet</url-pattern>
-  </servlet-mapping>
 </web-app>
